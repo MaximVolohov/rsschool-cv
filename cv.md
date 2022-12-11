@@ -25,3 +25,12 @@ function multiply(a, b){
   return a * b;
 }
 ```
+
+### Education
+1. Volgograd State Technical University
+   Bachelor's degree in "Management in Technical Systems"
+2. [HTML Academy](https://htmlacademy.ru/)
+3. [Современный учебник JavaScript](https://learn.javascript.ru/)
+
+### English language
+Language level A2
