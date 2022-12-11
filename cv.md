@@ -1,16 +1,20 @@
-### Name and surname
+## Name and surname
+---
 My name is Maxim Volokhov
 
-### Contacts
+## Contacts
+---
 * GitHub: MaximVolohov
 * E-mail: maxim_volohov@mail.ru
-* Telegram: MaxCray
+* Telegram: [MaxCray](https://t.me/MaxCray)
 * Discord: MaxCray (@maximvolohov)
 
-### Information about me
+## Information about me
+---
 Hi, I am 22 years old, I am studying in the 1st year of a master's degree and in parallel I am doing an internship in one company for a Frontend developer. In this course, I want to tighten up all my basic knowledge and skills, as well as close the gaps. I hope that after completing the course I will be able to approach the rank of Junior.
 
-### Skills
+## Skills
+---
 * Git/GitHub
 * HTML/CSS
 * JavaScript Basics
@@ -19,18 +23,25 @@ Hi, I am 22 years old, I am studying in the 1st year of a master's degree and in
 * PHP Basics
 * CMS Cockpit/Statamic
 
-### Code example
+## Code example
+---
 ```
 function multiply(a, b){
   return a * b;
 }
 ```
 
-### Education
-1. Volgograd State Technical University
+## Work experience
+---
+* CV
+
+## Education
+---
+1. Volgograd State Technical University  
    Bachelor's degree in "Management in Technical Systems"
 2. [HTML Academy](https://htmlacademy.ru/)
 3. [Современный учебник JavaScript](https://learn.javascript.ru/)
 
-### English language
+## English language
+---
 Language level A2
