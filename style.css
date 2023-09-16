@@ -15,11 +15,11 @@ body {
 	line-height: 3rem;
 
     color: black;
-    background: #F3F8FF;
+    /* background: #F3F8FF; */
     border: 2px solid #202B34;
 }
 
-h1, h2 {
+h1 {
     margin: 0;
     text-align: center;
 
@@ -28,6 +28,23 @@ h1, h2 {
     font-style: normal;
     line-height: 6rem;
     text-transform: uppercase;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+
+    font-family: Architects Daughter;
+    font-size: 6.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5rem;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+p {
+    margin: 0;
 }
 
 ul {
@@ -85,4 +102,34 @@ a {
     width: 350px;
     padding: 100px 50px 0 0;
     margin-left: auto;
+}
+
+.profile {
+    z-index: -1;
+    position: relative;
+    bottom: 350px;
+    
+    background: #F3F8FF;
+}
+
+.profile__content {
+    display: flex;
+}
+
+.my_photo {
+    padding-right: 10px;
+}
+
+.description {
+    padding-top: 220px;
+    padding-left: 10px;
+}
+
+.description h2 {
+    text-align: left;
+}
+
+.description p {
+    padding: 50px 0;
+    text-align: justify;
 }
