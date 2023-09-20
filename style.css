@@ -8,7 +8,7 @@ html {
 body {
     width: 1440px;
     margin: auto;
-    height: 2000px;
+    height: 2250px;
 
     font-family: Happy Monkey;
     font-size: 3.6rem;
@@ -138,3 +138,63 @@ a {
     line-height: 4rem;
 }
 
+.features {
+    position: relative;
+    z-index: 1;
+    height: 1425px;
+    bottom: 630px;
+
+    background-image: url(/img/bg/main.svg);
+}
+
+.features__bg {
+    position: relative;
+    z-index: 3;
+    height: 1425px;
+
+    background-image: url(/img/bg/main_border.svg);
+}
+
+.features__content {
+    position: relative;
+    z-index: 2;
+    height: 1425px;
+    bottom: 1425px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__content .column:first-child {
+    margin-top: 210px;
+}
+
+.features__content .column:last-child {
+    margin-top: auto;
+    margin-bottom: 267px;
+}
+
+.features__content section {
+    height: 320px;
+    width: 550px;
+
+    margin-top: 50px;
+
+    background-image: url(/img/bg/block.svg);
+}
+
+.code-example {
+    position: relative;
+    z-index: 0;
+
+    height: 50px;
+    bottom: 700px;
+}
+
+.footer {
+    position: relative;
+    z-index: 1;
+
+    height: 250px;
+    bottom: 900px;
+}
