@@ -47,7 +47,7 @@ p {
     margin: 0;
 }
 
-ul {
+ul, ol {
     padding: 0;
     margin: 0;
 }
@@ -187,6 +187,12 @@ a {
     padding: 20px 0 20px;
 }
 
+.features__item p {
+    font-family: Happy Monkey;
+    font-size: 2.4rem;
+	line-height: 4.5rem;
+}
+
 .skill {
     height: 45px;
     display: flex;
@@ -195,10 +201,46 @@ a {
 
 .skill p {
     padding-left: 35px;
+}
 
-    font-family: Happy Monkey;
-    font-size: 2.4rem;
-	line-height: 4.5rem;
+.education p {
+    padding: 0 40px;
+
+    text-align: justify;
+    line-height: 3.8rem;
+}
+
+.education a:hover {
+    text-decoration: underline;
+    color: #49687C;
+}
+
+.languages ul {
+    padding: 30px 100px;
+}
+
+.language {
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.language p {
+    line-height: 3rem;
+}
+
+.contacts ul{
+    padding: 0 25px;
+}
+
+.contact {
+    height: 45px;
+    display: flex;
+}
+
+.contact img {
+    margin: 0 15px 0 10px;
 }
 
 .code-example {
