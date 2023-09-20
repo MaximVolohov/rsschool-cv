@@ -183,6 +183,24 @@ a {
     background-image: url(/img/bg/block.svg);
 }
 
+.features__item h2 {
+    padding: 20px 0 20px;
+}
+
+.skill {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.skill p {
+    padding-left: 35px;
+
+    font-family: Happy Monkey;
+    font-size: 2.4rem;
+	line-height: 4.5rem;
+}
+
 .code-example {
     position: relative;
     z-index: 0;
