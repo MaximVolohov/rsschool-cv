@@ -15,7 +15,7 @@ body {
 	line-height: 3rem;
 
     color: black;
-    /* background: #F3F8FF; */
+    background: #F3F8FF;;
     border: 2px solid #202B34;
 }
 
@@ -68,9 +68,11 @@ a {
     margin: auto;
 }
 
-/* del height */
 .header {
+    position: relative;
+    z-index: 1;
     height: 500px;
+
     background-image: url(/img/bg/header.svg);
 }
 
@@ -105,8 +107,8 @@ a {
 }
 
 .profile {
-    z-index: -1;
     position: relative;
+    z-index: 0;
     bottom: 350px;
     
     background: #F3F8FF;
@@ -132,4 +134,7 @@ a {
 .description p {
     padding: 50px 0;
     text-align: justify;
+
+    line-height: 4rem;
 }
+
