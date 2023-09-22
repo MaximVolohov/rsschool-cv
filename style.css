@@ -73,7 +73,7 @@ a {
     z-index: 1;
     height: 500px;
 
-    background-image: url(/img/bg/header.svg);
+    background-image: url(img/bg/header.svg);
 }
 
 .header__nav {
@@ -144,7 +144,7 @@ a {
     height: 1425px;
     bottom: 630px;
 
-    background-image: url(/img/bg/main.svg);
+    background-image: url(img/bg/main.svg);
 }
 
 .features__bg {
@@ -152,7 +152,7 @@ a {
     z-index: 3;
     height: 1425px;
 
-    background-image: url(/img/bg/main_border.svg);
+    background-image: url(img/bg/main_border.svg);
 }
 
 .features__content {
@@ -206,7 +206,7 @@ a {
 
     margin-top: 50px;
 
-    background-image: url(/img/bg/block.svg);
+    background-image: url(img/bg/block.svg);
 }
 
 .features__item h2 {
@@ -283,7 +283,7 @@ a {
 .code-example__content {
     height: 307px;
 
-    background-image: url(/img/bg/block_duo.svg);
+    background-image: url(img/bg/block_duo.svg);
 }
 
 .code-example__item {
@@ -312,7 +312,7 @@ a {
     width: 435px;
     bottom: 1138px;
 
-    background-image: url(/img/bg/footer.svg);
+    background-image: url(img/bg/footer.svg);
 }
 
 .footer__content {
